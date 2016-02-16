@@ -1,6 +1,7 @@
 
 body{
   font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
 }
 p{
   /*text-align: justify;*/
@@ -103,7 +104,7 @@ a:hover{
 
 
 #skills-content{
-  font-size: 16px; 
+  font-size: 18px; 
   /*margin-bottom: -30px;*/
 }
 
@@ -116,7 +117,6 @@ a:hover{
 /*Experience section*/
 #experience-content{
   /*margin-bottom: -30px;*/
-  font-size: 16px;
 }
 
 .experience-title{
