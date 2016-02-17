@@ -7,6 +7,11 @@ p{
   /*text-align: justify;*/
 }
 
+h1 {
+    font-size: 1px;
+    visibility: hidden;
+}
+
 .me {
   height: 50%;
   width: 50%;
@@ -18,7 +23,7 @@ p{
 .jumbotron{
   color: lime;
   background-color: black;
-  margin-top: -8px;
+  margin-top: -20px;
   margin-bottom: -15px;
   height: 100px;
 }
@@ -60,7 +65,7 @@ p{
   text-align: center;
   color: #297A2D;
   font-size: 36px;
-  padding-top:20px;
+  padding-top:40px;
   padding-bottom: 9px;
   text-shadow: 0.5px 0.5px black;
 }
@@ -70,6 +75,7 @@ p{
   border-bottom: 1px solid black;
   height: 100px;
   width: 100%;
+  margin-bottom: -20px;
 }
 
 
@@ -102,15 +108,28 @@ a:hover{
   padding-bottom: 8px
 }
 
+#portfolio-content{
+  /*margin-bottom: -30px;*/
+
+}
+
+
+.logo{
+  /*width: 60%;*/
+  max-height: 80px;
+  vertical-align: baseline;
+}
+
+.modal-title{
+  font-weight: bold;
+  font-size: 2em;
+}
+
+
 
 #skills-content{
   font-size: 18px; 
   /*margin-bottom: -30px;*/
-}
-
-#portfolio-content{
-  /*margin-bottom: -30px;*/
-
 }
 
 

@@ -1,6 +1,8 @@
 $(document).ready(function(){
 
 // alert('JS is up and running!');
+
+
  $(function(){
         $(".typewriter").typed({
             strings: ["a web developer.", "a data analyst.", "a writer.", "a reader.", "a mentor.", "a lifelong learner.", "Vikash.                   Hi.:)"],
