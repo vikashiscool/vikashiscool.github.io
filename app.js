@@ -28,6 +28,27 @@ $(document).ready(function(){
 //     content: '<i>Hello there!</i>'
 // });
  
+$('.skill').jBox('Tooltip');
+$('#fullpage').fullpage({
+        anchors:['about-section', 'portfolio-section', 'skills-section', 'experience-section', 'skills-section']
+    });
+
+
+// function scrollToDiv(name) {
+//   var divTag = $("div[name='"+ name + "']");
+//   $('html,body').animate({
+//     scrollTop: divTag.offset().top},
+//                2000); //lengthtime of scroll
+// }
+// ​
+// //use
+// ​
+// $("#about").click(function() {
+//   scrollToDiv('about');
+// });
+// ​
+
+
 
 });
 
