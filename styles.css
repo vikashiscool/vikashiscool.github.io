@@ -23,9 +23,9 @@ h1 {
 .jumbotron{
   color: lime;
   background-color: black;
-  margin-top: -20px;
+  margin-top: -40px;
   margin-bottom: -15px;
-  height: 100px;
+  height: 120px;
 }
 
 .custom-nav{
@@ -109,16 +109,34 @@ a:hover{
 }
 
 #portfolio-content{
+  text-align: center;
   /*margin-bottom: -30px;*/
-
 }
 
 
 .logo{
   /*width: 60%;*/
+}
+
+#resolv{
+  padding-bottom: 15px;
   max-height: 80px;
   vertical-align: baseline;
 }
+
+#hpfy{
+  max-height: 80px;
+  vertical-align: baseline;
+}
+
+#trvl{
+  max-height: 80px;
+  vertical-align: baseline;
+}
+
+
+
+
 
 .modal-title{
   font-weight: bold;

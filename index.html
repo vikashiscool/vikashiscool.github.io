@@ -11,7 +11,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
   <!-- Font-awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<!-- Custom font -->
+  <!-- jBox CSS-->
+  <link href="http://code.jboxcdn.com/0.3.2/jBox.css" rel="stylesheet">
+  <!-- Custom font CSS-->
   <link href='https://fonts.googleapis.com/css?family=Cutive+Mono' rel='stylesheet' type='text/css'>
   <!-- Local stylesheets-->
   <link rel="stylesheet" type="text/css" href="styles.css">
@@ -23,6 +25,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <!-- Typed.js JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+  <!-- jBox JS -->
+  <script src="http://code.jboxcdn.com/0.3.2/jBox.min.js"></script>
 
   <!-- Local JS  -->
   <script type="text/javascript" src="app.js"></script>
@@ -115,9 +119,9 @@
     </div>
     <div id="portfolio-content">
     <tr>
-    <p class="col-xs-4"><a href="#"><img src="images/resolv-logo.png" class="logo"  data-toggle="modal" data-target="#resolvModal"></a></p>
-    <p class="col-xs-4"><a href="#"><img src="images/hpfy-logo.png" class="logo" data-toggle="modal" data-target="#hpfyModal"></a></p>
-    <p class="col-xs-4"><a href="#"><img src="images/trvl-logo.png" class="logo"></a></p>
+    <p class="col-sm-4"><img src="images/resolv-logo.png" class="logo" id="resolv"  data-toggle="modal" data-target="#resolvModal"></p>
+    <p class="col-sm-4"><img src="images/hpfy-logo.png" class="logo" data-toggle="modal" data-target="#hpfyModal"></p>
+    <p class="col-sm-4"><img src="images/trvl-logo.png" class="logo" data-toggle="modal" data-target="#trvlModal"></p>
     </tr>
     </div>
   </section>
@@ -132,7 +136,7 @@
       </div>
       <div class="modal-body">
         <p><b>Description: </b>A MEAN stack web app that allows users to track and share their New Years Resolutions.</p>
-        <p><b>Technologies: </b>Angular/Bootstrap (front-end), Node/Express/MongoDB (back-end).</p>
+        <p><b>Technologies: </b>Angular/Bootstrap (front-end) / Node/Express/MongoDB (back-end)</p>
         <p><b>Responsibilities: </b>All stages of development, from schema to deployment.</p>
         <p><b>Source: </b><a href="https://github.com/project-funtime/resolv" target="_blank">https://github.com/project-funtime/resolv</a></p>
       </div>
@@ -152,9 +156,31 @@
       </div>
       <div class="modal-body">
         <p><b>Description: </b>A web resource that connects low-income patients with state health insurance marketplaces created by the Affordable Care Act.</p>
-        <p><b>Technologies: </b>JS/jQuery/Bootstrap (front-end); HAML-Rails (back-end).</p>
+        <p><b>Technologies: </b>JS/jQuery/Bootstrap (front-end) / HAML-Rails (back-end)</p>
         <p><b>Responsibilities: </b>Worked closely with project managers and a UX designer to create user-friendly views, new user models, and streamlined routes.</p>
-        <p><b>Source: </b><a href="https://github.com/project-funtime/resolv" target="_blank">https://github.com/project-funtime/resolv</a></p>
+        <p><b>URL: </b><a href="https://www.healthplanforyou.org/" target="_blank">https://www.healthplanforyou.org/</a></p>
+        <p><b>Source: </b><a href="https://github.com/Zero-Divide-GA/ZeroDivide" target="_blank">https://github.com/Zero-Divide-GA/ZeroDivide</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+  <div class="modal fade" id="trvlModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Travelogue</h4>
+      </div>
+      <div class="modal-body">
+        <p><b>Description: </b>A blogging platform that allows users to create travel articles and post photos.</p>
+        <p><b>Technologies: </b>Google Maps API, JS/jQuery/Bootstrap (front-end) / RoR (back-end)</p>
+        <p><b>Responsibilities: </b>Authentication (Devise), authorization (Pundit), file upload (Paperclip), testing, models, views, and controllers.</p>
+        <p><b>URL: </b><a href="https://trvlogue.herokuapp.com/" target="_blank">https://trvlogue.herokuapp.com</a></p>
+        <p><b>Source: </b><a href="https://github.com/wampas/project2/" target="_blank">https://github.com/wampas/project2</a></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
