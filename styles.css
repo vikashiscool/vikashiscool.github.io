@@ -122,16 +122,19 @@ a:hover{
   padding-bottom: 20px;
   max-height: 80px;
   vertical-align: baseline;
+  cursor: pointer;
 }
 
 #hpfy{
   max-height: 80px;
   vertical-align: baseline;
+  cursor: pointer;
 }
 
 #trvl{
   max-height: 80px;
   vertical-align: baseline;
+  cursor: pointer;
 }
 
 

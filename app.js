@@ -5,7 +5,7 @@ $(document).ready(function(){
 
  $(function(){
         $(".typewriter").typed({
-            strings: ["a web developer.", "a data analyst.", "a writer.", "a reader.", "a mentor.", "a lifelong learner.", "Vikash.                   Hi.:)"],
+            strings: ["a web developer.", "a data analyst.", "a writer.", "a mentor.", "a lifelong student.", "Vikash.                   Hi.:)"],
             typeSpeed: 40
         });
     });
