@@ -63,7 +63,7 @@ h1 {
 .heading{
   font-weight:600;
   text-align: center;
-  color: #297A2D;
+  color: #309E29;
   font-size: 36px;
   padding-top:40px;
   padding-bottom: 9px;
@@ -125,10 +125,18 @@ a:hover{
   cursor: pointer;
 }
 
+#resolv:hover{
+  opacity:0.7;
+}
+
 #hpfy{
   max-height: 80px;
   vertical-align: baseline;
   cursor: pointer;
+}
+
+#hpfy:hover{
+  opacity:0.7;
 }
 
 #trvl{
@@ -137,6 +145,9 @@ a:hover{
   cursor: pointer;
 }
 
+#trvl:hover{
+  opacity:0.7;
+}
 
 
 
