@@ -164,6 +164,9 @@ a:hover{
   /*margin-bottom: -30px;*/
 }
 
+.skill{
+  cursor:pointer;
+}
 
 /*Experience section*/
 #experience-content{
