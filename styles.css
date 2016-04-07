@@ -168,6 +168,11 @@ a:hover{
   cursor:pointer;
 }
 
+.skill:hover{
+  color: green;
+  font-weight: bold;
+}
+
 /*Experience section*/
 #experience-content{
   /*margin-bottom: -30px;*/
@@ -202,7 +207,7 @@ a:hover{
 }
 
 #social-content{
-
+  margin-bottom: 20px;
 }
 
 
@@ -234,6 +239,21 @@ a:hover{
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
+/*Twitter Box*/
+
+#twit{
+  margin: auto;
+  text-align: center;
+  height: 300px;
+  width: 500px;
+}
+
+
+
+
+
+
 
 
 
