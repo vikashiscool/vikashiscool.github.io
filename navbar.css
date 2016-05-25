@@ -56,6 +56,6 @@ div#navbar.collapse.navbar-collapse{
 .navbar.navbar-fixed-top.fixed-theme,
 .navbar-brand,
 .navbar-container{
-    transition: 0.6s;
-    -webkit-transition:  0.6s;
+    transition: 0.4s;
+    -webkit-transition:  0.4s;
 }
